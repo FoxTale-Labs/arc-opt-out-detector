@@ -9,5 +9,5 @@ async function isArcOptOut() {
         }, 300);
     });
     await promise
-    return !frameContent.toLowerCase().includes('opt out')
+    return frameContent.toLowerCase().includes('opt in')
 }
